@@ -13,6 +13,7 @@ body {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  gap: 50px;
 }
 
 .photo img {
@@ -30,4 +31,53 @@ body {
 .btn:hover {
   padding: 15px 52px;
   cursor: pointer;
+}
+
+.second-section {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.city {
+  width: 250px;
+  border: 1px solid #dee2e6;
+  box-shadow: 1px 1px #dee2e6;
+  border-radius: 5px;
+  padding: ;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.all-division {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.bottom {
+  padding: 6px;
+}
+
+.details-btn {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #dee2e6;
+}
+
+.details-btn:hover {
+  padding: 10px 16px;
+  background-color: #868e96;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 14px;
+  color: #343a40;
 }
